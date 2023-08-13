@@ -1,38 +1,8 @@
+const img = document.querySelectorAll('img')
+console.log(img)
 
-const animais = document.getElementById("animais");
-console.log(animais)
+const imagem = document.querySelectorAll('img[src^="img/imagem"]')
+console.log(imagem)
 
-const gridSection = document.getElementsByClassName("grid-section");
-console.log(gridSection[0])
-
-
-const primeiraLi = document.querySelector('li')
-console.log(primeiraLi)
-
-const primeiraUl = document.querySelector('ul')
-console.log(primeiraUl)
-
-const linkInterno = document.querySelector('[href^="#"]')
+const linkInterno = document.querySelectorAll('[href^="#"]')
 console.log(linkInterno)
-
-const animaisImg = document.querySelectorAll( '.animais img ');
-console.log(animaisImg[1])
-
-const gridSectionHTML = document.getElementsByClassName('grid-section')
-const gridSectionNode = document.querySelectorAll('.grid-section')
-
-primeiraUl.classList.add('grid-section')
-
-//console.log(gridSectionHTML[0]);
-//console.log(gridSectionNode[0])
-
-gridSectionNode.forEach( function(item, index){
-    console.log(item);
-
-});
-
-const arrayGrid = Array.from(gridSectionHTML);
-
-arrayGrid.forEach(function(item){
-    conaole.log(item)
-})
