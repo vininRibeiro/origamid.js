@@ -1,8 +1,6 @@
-const img = document.querySelectorAll('img')
-console.log(img)
+imgs = document.querySelectorAll('img');
 
-const imagem = document.querySelectorAll('img[src^="img/imagem"]')
-console.log(imagem)
-
-const linkInterno = document.querySelectorAll('[href^="#"]')
-console.log(linkInterno)
+let i = 0;
+imgs.forEach(function(item, index, array){
+console.log(item, index)
+});
