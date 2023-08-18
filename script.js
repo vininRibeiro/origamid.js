@@ -1,6 +1,10 @@
-imgs = document.querySelectorAll('img');
+const imgs = document.querySelectorAll('img');
 
-let i = 0;
-imgs.forEach(function(item, index, array){
+imgs.forEach((item, index) =>{
 console.log(item, index)
 });
+
+const doc =document.querySelectorAll('p')
+doc.forEach((item) =>{
+   console.log(item) 
+})
