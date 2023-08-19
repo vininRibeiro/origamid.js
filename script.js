@@ -8,3 +8,9 @@ const doc =document.querySelectorAll('p')
 doc.forEach((item) =>{
    console.log(item) 
 })
+
+
+const doc2 =document.querySelectorAll('p')
+doc2.forEach((item) =>{
+   console.log(item.innerText) 
+})
