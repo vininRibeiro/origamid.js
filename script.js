@@ -1,16 +1,11 @@
-const imgs = document.querySelectorAll('img');
+const menu = document.querySelector('.menu');
+console.log(menu)
 
-imgs.forEach((item, index) =>{
-console.log(item, index)
-});
+const animais = document.querySelector('.animais');
+console.log(animais.attributes['data-texto'])
 
-const doc =document.querySelectorAll('p')
-doc.forEach((item) =>{
-   console.log(item) 
-})
+const img = document.querySelector('img');
 
+img.setAttribute('alt', 'è uma raposa ')
 
-const doc2 =document.querySelectorAll('p')
-doc2.forEach((item) =>{
-   console.log(item.innerText) 
-})
+console.log(img.getAttribute('src'))
