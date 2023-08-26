@@ -9,3 +9,9 @@ const img = document.querySelector('img');
 img.setAttribute('alt', 'è uma raposa ')
 
 console.log(img.getAttribute('src'))
+
+
+const intensMenu = document.querySelectorAll('.menu a')
+intensMenu.forEach((item) => {
+    item.classList.add('ativo')
+})
